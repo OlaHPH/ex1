@@ -4,4 +4,4 @@
 
    h1
     
-    ![This is an image](/Screenshot 2023-01-18 110139.png)
+    ![This is an image](/main/Screenshot 2023-01-18 110139.png)
