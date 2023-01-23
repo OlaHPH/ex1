@@ -2,8 +2,8 @@
     Fast, convenient command lines used in Linux and BSD 
 
 ## Main categories 
-### moving and looking around 
-### file manipulation
+### Moving and looking around 
+### File manipulation
 ### SSH remote control
 ### Help
 ### History and Guessing
