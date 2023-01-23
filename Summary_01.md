@@ -1,6 +1,6 @@
-#Summary 1 on Intrusion Kill Chain and Courses of Action 
+# Summary 1 on Intrusion Kill Chain and Courses of Action 
 ## Hutchins et al 2011: Intelligence-Driven Computer Network Defense Informed by Analysis of Adversary Campaigns and Intrusion Kill Chains,
-###3.2 Intrusion Kill Chain 
+### 3.2 Intrusion Kill Chain 
 Kill chain definition – a systematic process to target and engage a “victim” to obtain desired effects. According to the US Military, the process includes the following steps, known as F2T2EA
 1.	Find the target 
 2.	Fix the location
@@ -17,7 +17,7 @@ The NEW model – CNA Computer Network Attack and CNE Computer Network Espionage
 5.	Installation – installing remote access trojan/backdoor to maintain the existence of it at the victim environment.
 6.	Command and Control (C2) – usually the hosts must signal outbound to Internet controller server to establish a C2 channel rather over manual interaction than automatic. Once done, the intruders gain “hands on the keyboard” access inside the target environment.  
 7.	Actions on Objects – the intruders take action to achieve their original goals. Usually, it’s data extraction (collecting, encrypting and extracting info), violation data integrity or availability, or using it as a hop point before moving further into the network. 
-###3.3 Courses of Action 
+### 3.3 Courses of Action 
 Thorough understanding of intrusion kill chain model leads to the ability to build up measurement and decision to defend it. Defenders can also measure the performance and effectiveness of these actions as well as plan investment roadmaps to fix any existing gaps. 
 Table 1: Courses of Action Matrix showcases the actions (Detect, Deny, Disrupt, Degrade, Deceive, Destroy) over corresponding phases of intrusion kill chain listed in 3.2. The Matrix implies the importance of completeness of the actions (“completeness equates to resiliency”) which is the main goal of the defender over time.
 Concept “zero-day attacks” and “zero day protection” are introduced. 
