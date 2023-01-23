@@ -4,4 +4,4 @@
 
    h1
     
-![https://user-images.githubusercontent.com/99587532/214148262-d89cea25-548d-476c-85f8-169193c10bc7.png](https://github.com/OlaHPH/ex1/issues/1#issue-1553803337)
+<img width="599" alt="Screenshot 2023-01-18 110139" src="https://user-images.githubusercontent.com/99587532/214149374-bbb24d7d-8697-4332-8c4d-237cd658c0d9.png">
