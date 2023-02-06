@@ -48,9 +48,27 @@ Source: [Cloud Range - Red Team vs. Blue Team excercises](https://www.cloudrange
  <details><summary> y) Write an answer with references.</summary>
  <p> 
   Answer in the context of Mitre Att&ck, and pick examples that are different from the chapter in task x.
-        Define tactic and give an example.
-        Define technique and subtechnique, and give an example of each.
-        Define procedure, and give an example of each.
+   * Define tactic and give an example.
+
+  The one I picked here is Execution (https://attack.mitre.org/tactics/TA0002/). As briefly mentioned in the previous part, execution refers to the act of TA running malicious code inside the victim's environment, either local or remote. This is usually paired with other tactics' techniques to acchieve broader goals, like getting data or "getting to know" the network, system. 
+   * Define technique and subtechnique, and give an example of each. 
+  
+There are 13 techniques included in this tactic, of them: 
+  1. T1059 (Command and Scripting Interpreter) with 8 subtechniques
+  2. Container Administration Command
+  3. Deploy Container
+  4. Exploitation for Client Execution
+  5. Inter-Process Communication with 3 subtechniques
+  6. Native API
+  7. Scheduled Task/Job with 5 subtechniques
+  8. Serverless Execution
+  9. Shared Modules
+  10. Software Deployment Tools
+  11. System services with 2 subtechniques
+  12. User Execution with 3 subtechniques
+  13. Windows Management Instrumentation
+  
+   * Define procedure, and give an example of each.
  </p> 
  </details>       
  <details><summary> a) Webgoat: A3 Sensitive data exposure </summary>
@@ -87,5 +105,6 @@ Tips:
   *[Comparing layers in ATT&CK Navigator Walkthrough](https://attack.mitre.org/docs/training-cti/Comparing%20Layers%20in%20Navigator.pdf)
   *[Virus Bulletin 2018: Inside Formbook Infostealer](https://www.virusbulletin.com/uploads/pdf/magazine/2018/VB2018-Nicolao.pdf)
   *[Matthieu's assignment report for the y part](https://github.com/MatthieuBruh/h3_Attaaack)
+  *[Mitre|ATT&CK-Execution](https://attack.mitre.org/tactics/TA0002/)
  </p> 
  </details>  
