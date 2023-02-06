@@ -51,22 +51,14 @@ Source: [Cloud Range - Red Team vs. Blue Team excercises](https://www.cloudrange
    * Define tactic and give an example.
 
   The one I picked here is Execution (https://attack.mitre.org/tactics/TA0002/). As briefly mentioned in the previous part, execution refers to the act of TA running malicious code inside the victim's environment, either local or remote. This is usually paired with other tactics' techniques to acchieve broader goals, like getting data or "getting to know" the network, system. 
-   * Define technique and subtechnique, and give an example of each. 
   
-There are 13 techniques included in this tactic, of them: 
-  1. T1059 (Command and Scripting Interpreter) with 8 subtechniques
-  2. Container Administration Command
-  3. Deploy Container
-  4. Exploitation for Client Execution
-  5. Inter-Process Communication with 3 subtechniques
-  6. Native API
-  7. Scheduled Task/Job with 5 subtechniques
-  8. Serverless Execution
-  9. Shared Modules
-  10. Software Deployment Tools
-  11. System services with 2 subtechniques
-  12. User Execution with 3 subtechniques
-  13. Windows Management Instrumentation
+   * Define technique and subtechnique, and give an example of each.
+  
+There are 13 techniques included in this tactic and 21 subtechniques, of those, I focus on 
+ T1204. User Execution and its subtechniques (malicious emails, links and/or images). User Execution usually goes in pair with other techniques, among them, most often, Phishing from Initial Access or may also occur at later phases of an instrution, for example, Command and Control via Remote Access Software. Using this tactic, TA "tricks" (social engineers) the victims into conducting specific actions to gain excecution. Few examples: 
+  * user executing malicious code by opening a malicious document file, or links - in my opinion, this is one of most common/frequent form of techniques used. The TA (phisher/scammer) would send a "fake" email (looking like a legit one) containing a link asking for action from the user/victim. The user then clicks on the link which triggers downloading some malware and this later exploits. 
+  * user opening a file in a shared directory placed by the TA 
+  * user enabling Remote Access Software, letting TA have direct control of the system. 
   
    * Define procedure, and give an example of each.
  </p> 
@@ -106,5 +98,7 @@ Tips:
   *[Virus Bulletin 2018: Inside Formbook Infostealer](https://www.virusbulletin.com/uploads/pdf/magazine/2018/VB2018-Nicolao.pdf)
   *[Matthieu's assignment report for the y part](https://github.com/MatthieuBruh/h3_Attaaack)
   *[Mitre|ATT&CK-Execution](https://attack.mitre.org/tactics/TA0002/)
+  *[CVE to T&TS: Using CVE attributes for MITRE ATT&CK mapping](https://l.vulcancyber.com/hubfs/Ebooks-and-White-Papers/Vulcan-Cyber-Mapping-CVEs-to-MITRE.pdf)
+  *[Wikipedia-Social Engineering(security)](https://en.wikipedia.org/wiki/Social_engineering_(security))
  </p> 
  </details>  
