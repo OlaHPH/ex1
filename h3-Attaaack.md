@@ -100,5 +100,7 @@ Tips:
   *[Mitre|ATT&CK-Execution](https://attack.mitre.org/tactics/TA0002/)
   *[CVE to T&TS: Using CVE attributes for MITRE ATT&CK mapping](https://l.vulcancyber.com/hubfs/Ebooks-and-White-Papers/Vulcan-Cyber-Mapping-CVEs-to-MITRE.pdf)
   *[Wikipedia-Social Engineering(security)](https://en.wikipedia.org/wiki/Social_engineering_(security))
+  *(https://www.zdnet.com/article/this-malware-spreading-pdf-uses-a-sneaky-file-name-to-trick-the-unwary/) - for the exaple 
+  * (https://www.sentinelone.com/blog/malicious-pdfs-revealing-techniques-behind-attacks/) - for the example 
  </p> 
  </details>  
