@@ -4,6 +4,7 @@ h3 Attaaack
 <p> 
         € Costa-Gazcón 2021: Practical Threat Intelligence and Data-Driven Threat Hunting. Chapter 4: Mapping the Adversary 
         (all but "Testing yourself", which is left as voluntary bonus)
+ 
  1. The MITRE ATT&CK framework
  
   Description of 14 TTPs (tactics, techniques (+subtechniques), procedures) according to MITRE ATT&CK framwework.
