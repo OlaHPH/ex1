@@ -4,9 +4,9 @@ h3 Attaaack
 <p> 
         € Costa-Gazcón 2021: Practical Threat Intelligence and Data-Driven Threat Hunting. Chapter 4: Mapping the Adversary 
         (all but "Testing yourself", which is left as voluntary bonus)
- 1. The WITRE ATT&CK framework
+ 1. The MITRE ATT&CK framework
  
-  Description of 14 TTPs (tactics, techniques (+subtechniques), procedures) according to WITRE ATT&CK framwework.
+  Description of 14 TTPs (tactics, techniques (+subtechniques), procedures) according to MITRE ATT&CK framwework.
   Each tactic has its own set of techniques/subtechniques with specific TA behaviors. 
    1. Reconnaissance  - new - trying to get as much info about the victim as possible 
    2. Resources Dev - new - conducting assessing resources process (these resources can be purchased, stolen, or developed)
@@ -69,16 +69,16 @@ TA sending Windows' users email containing malicious PDF files named "REMMITANCE
   
 Once opening the file, Adobe Reader prompts the user to open the Word file, and here because of the name conbined with the warning notification from Adobe Reader, it reads "The file 'has been verified. However PDF, Jpeg, xlsx, .docs' may contain programs, macros or viruses that could potentially harm your computer. Open the file only if you are sure it is safe. Would you like to:" 
   
- At the first glance, the notification with combination of the file name looks normal (the file's has been verified...). 
+At the first glance, the notification with combination of the file name looks normal (the file's has been verified...). 
  ![image](https://user-images.githubusercontent.com/99587532/217180497-ce908d56-0f67-492d-9b58-013ec1b850d5.png)
  
- The Word document contains a malicious URL where an external object linking and embedding (OLE) object. 
+The Word document contains a malicious URL where an external object linking and embedding (OLE) object. 
   
- If the protected view is disable, Word would then download a Rich Text Format file from a web server which would be run in the context of the open document.
+If the protected view is disable, Word would then download a Rich Text Format file from a web server which would be run in the context of the open document.
   
- THe OLE object contains shellcode exploiting the [CVE-2017-11882](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2017-11882) remote code execution vulnerability in Equation Editor which had been addressed in 2017. 
+The OLE object contains shellcode exploiting the [CVE-2017-11882](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2017-11882) remote code execution vulnerability in Equation Editor which had been addressed in 2017. 
   
- It would also download the user's info stealing malware - Snake Keylogger which leads to stealing sensitive information from a victim’s device, including saved credentials, the victim’s keystrokes, screenshots of the victim’s screen, and clipboard data. 
+It would also download the user's info stealing malware - Snake Keylogger which leads to stealing sensitive information from a victim’s device, including saved credentials, the victim’s keystrokes, screenshots of the victim’s screen, and clipboard data. 
   
  </p> 
  </details>       
