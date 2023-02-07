@@ -1,6 +1,6 @@
 h3 Attaaack
  
-<details><summary> x) Read and summarize </summary>
+<details><summary> x) Read and summarize  - completed </summary>
 <p> 
         € Costa-Gazcón 2021: Practical Threat Intelligence and Data-Driven Threat Hunting. Chapter 4: Mapping the Adversary 
         (all but "Testing yourself", which is left as voluntary bonus)
@@ -46,7 +46,7 @@ Source: [Cloud Range - Red Team vs. Blue Team excercises](https://www.cloudrange
  
  </p> 
  </details>   
- <details><summary> y) Write an answer with references</summary>
+ <details><summary> y) Write an answer with references - completed </summary>
  <p> 
   Answer in the context of Mitre Att&ck, and pick examples that are different from the chapter in task x.
    * Define tactic and give an example.
@@ -82,23 +82,21 @@ Once opening the file, Adobe Reader prompts the user to open the Word file, and 
   
  </p> 
  </details>       
- <details><summary> a) Webgoat: A3 Sensitive data exposure - TBC </summary>
+ <details><summary> a) Webgoat: A3 Sensitive data exposure - completed </summary>
  <p> 
         Insecure Login: 2 Let's try
   
-Quite straight-forward task using the knowledge from the previous 'General - Developer Tools' in h1, I used "Inspect" - "Network"- Click on "Log in" button - Find the "Post" start.mvc query - Click on "Request" to find the login details. 
+Quite straight-forward task using knowledge from the previous 'General - Developer Tools' in h1, I used "Inspect" - "Network"- Click on "Log in" button - Find the "Post" start.mvc query - Click on "Request" to find the login details. 
 
-The only issue I got in here is that password was given on the first line and username on the second line, so in a pilot mode, I tried the combo "password-username" and well, it didn't work. I started digging the internet and found out the tutorial/walkthrough showed exactly the steps I done, with only the difference in the name of "username". Ahah, so, lesson learnt: pay attention to each and every single thing, no matter how minor/silly they may look. 
+The only issue I got in here is that password was given on the first line and username on the second line, so in a pilot mode, I tried the combo "password-username" and well, it didn't work. I started digging the internet and found out the tutorial/walkthrough showed exactly the steps I done, with only the difference in the name of "username". 
+  
+Ahah, so, lesson learnt: pay attention to each and every single thing, no matter how minor/silly they may look. 
  
-[Wrong solution] <img width="794" alt="h3_webgoat_wrong" src="https://user-images.githubusercontent.com/99587532/217193195-8d4d3d42-b65a-4558-a1fe-b99d346d3171.png">
-
-[And the right one]<img width="799" alt="h3_webgoat_right" src="https://user-images.githubusercontent.com/99587532/217192663-1d37cfd7-6533-433b-a12a-b7977a0e98e5.png">
- 
+<img width="794" alt="h3_webgoat_wrong" src="https://user-images.githubusercontent.com/99587532/217193195-8d4d3d42-b65a-4558-a1fe-b99d346d3171.png">
 
  </p> 
  </details>  
- <details><summary> n) Voluntary bonus:  - TBC </summary>
- 
+ <details><summary> n) Voluntary bonus: Testing yourself - TBC </summary>
 
  <p> 
   "Testing yourself" in Costa-Gazcón: Practical Threat Intelligence and Data-Driven Threat Hunting
