@@ -78,7 +78,7 @@ If the protected view is disable, Word would then download a Rich Text Format fi
   
 The OLE object contains shellcode exploiting the [CVE-2017-11882](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2017-11882) remote code execution vulnerability in Equation Editor which had been addressed in 2017. 
   
-It would also download the user's info stealing malware - Snake Keylogger which leads to stealing sensitive information from a victim’s device, including saved credentials, the victim’s keystrokes, screenshots of the victim’s screen, and clipboard data. 
+It would also download the Snake Keylogger a malware used to steal sensitive information from user’s device, including saved credentials, keystrokes, screenshots of the user’s screen, and clipboard data. 
   
  </p> 
  </details>       
