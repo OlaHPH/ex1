@@ -53,12 +53,21 @@ Source: [Cloud Range - Red Team vs. Blue Team excercises](https://www.cloudrange
   The one I picked here is Execution (https://attack.mitre.org/tactics/TA0002/). As briefly mentioned in the previous part, execution refers to the act of TA running malicious code inside the victim's environment, either local or remote. This is usually paired with other tactics' techniques to acchieve broader goals, like getting data or "getting to know" the network, system. 
   
    * Define technique and subtechnique, and give an example of each.
-  
+
 There are 13 techniques included in this tactic and 21 subtechniques, of those, I focus on 
  T1204. User Execution and its subtechniques (malicious emails, links and/or images). User Execution usually goes in pair with other techniques, among them, most often, Phishing from Initial Access or may also occur at later phases of an instrution, for example, Command and Control via Remote Access Software. Using this tactic, TA "tricks" (social engineers) the victims into conducting specific actions to gain excecution. Few examples: 
+  
   * user executing malicious code by opening a malicious document file, or links - in my opinion, this is one of most common/frequent form of techniques used. The TA (phisher/scammer) would send a "fake" email (looking like a legit one) containing a link asking for action from the user/victim. The user then clicks on the link which triggers downloading some malware and this later exploits. 
+  
+  Example: TA sending email containing malicious PDF files named "REMMITANCE INVOICE.pdf" with an embedded Word document named "has been verified. However PDF, Jpeg, xlsx, .docs". Once opening the file, Adobe Reader prompts the user to open the Word file, and here because of the name conbined with the warning notification from Adobe Reader, it reads "The file 'has been verified. However PDF, Jpeg, xlsx, .docs' may contain programs, macros or viruses that could potentially harm your computer. Open the file only if you are sure it is safe. Would you like to:" (At the first glance, the notification with combination of the file name looks normal (the file's has been verified...). 
+  !(https://threatresearch.ext.hp.com/wp-content/uploads/2022/05/pdf_malware_02.png)
+  The Word document contains a malicious URL where an external object linking and embedding (OLE) object. If the protected view is disable, Word would then download a Rich Text Format file from a web server which would be run in the context of the open document.
+  
+  THe OLE object contains shellcode exploiting the [CVE-2017-11882](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2017-11882) remote code execution vulnerability in Equation Editor which had been addressed in 2017. It would also download the user's info stealing malware - Snake Keylogger. 
+  
   * user opening a file in a shared directory placed by the TA 
-  * user enabling Remote Access Software, letting TA have direct control of the system. 
+  * user enabling Remote Access Software, letting TA have direct control of the system.
+  
   
    * Define procedure, and give an example of each.
  </p> 
@@ -100,7 +109,7 @@ Tips:
   *[Mitre|ATT&CK-Execution](https://attack.mitre.org/tactics/TA0002/)
   *[CVE to T&TS: Using CVE attributes for MITRE ATT&CK mapping](https://l.vulcancyber.com/hubfs/Ebooks-and-White-Papers/Vulcan-Cyber-Mapping-CVEs-to-MITRE.pdf)
   *[Wikipedia-Social Engineering(security)](https://en.wikipedia.org/wiki/Social_engineering_(security))
-  *(https://www.zdnet.com/article/this-malware-spreading-pdf-uses-a-sneaky-file-name-to-trick-the-unwary/) - for the exaple 
-  * (https://www.sentinelone.com/blog/malicious-pdfs-revealing-techniques-behind-attacks/) - for the example 
+  *[ZDnet - User Execution example](https://www.zdnet.com/article/this-malware-spreading-pdf-uses-a-sneaky-file-name-to-trick-the-unwary/) - for the example 
+  *[HP Threat Research Blog • PDF Malware Is Not Yet Dead](https://threatresearch.ext.hp.com/pdf-malware-is-not-yet-dead/#)
  </p> 
  </details>  
