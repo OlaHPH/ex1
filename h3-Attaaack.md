@@ -63,7 +63,7 @@ There are 13 techniques included in this tactic and 21 subtechniques, of those, 
    * user enabling Remote Access Software, letting TA have direct control of the system.
   
   
-   * Define procedure, and give an example of each.
+   * Define procedure, and give an example of each - TBC 
   
 TA sending Windows' users email containing malicious PDF files named "REMMITANCE INVOICE.pdf" with an embedded Word document named "has been verified. However PDF, Jpeg, xlsx, .docs". 
   
