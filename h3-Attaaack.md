@@ -57,19 +57,21 @@ Source: [Cloud Range - Red Team vs. Blue Team excercises](https://www.cloudrange
 There are 13 techniques included in this tactic and 21 subtechniques, of those, I focus on 
  T1204. User Execution and its subtechniques (malicious emails, links and/or images). User Execution usually goes in pair with other techniques, among them, most often, Phishing from Initial Access or may also occur at later phases of an instrution, for example, Command and Control via Remote Access Software. Using this tactic, TA "tricks" (social engineers) the victims into conducting specific actions to gain excecution. Few examples: 
   
-  * user executing malicious code by opening a malicious document file, or links - in my opinion, this is one of most common/frequent form of techniques used. The TA (phisher/scammer) would send a "fake" email (looking like a legit one) containing a link asking for action from the user/victim. The user then clicks on the link which triggers downloading some malware and this later exploits. 
-  
-  Example: TA sending email containing malicious PDF files named "REMMITANCE INVOICE.pdf" with an embedded Word document named "has been verified. However PDF, Jpeg, xlsx, .docs". Once opening the file, Adobe Reader prompts the user to open the Word file, and here because of the name conbined with the warning notification from Adobe Reader, it reads "The file 'has been verified. However PDF, Jpeg, xlsx, .docs' may contain programs, macros or viruses that could potentially harm your computer. Open the file only if you are sure it is safe. Would you like to:" (At the first glance, the notification with combination of the file name looks normal (the file's has been verified...). 
-  !(https://threatresearch.ext.hp.com/wp-content/uploads/2022/05/pdf_malware_02.png)
-  The Word document contains a malicious URL where an external object linking and embedding (OLE) object. If the protected view is disable, Word would then download a Rich Text Format file from a web server which would be run in the context of the open document.
-  
-  THe OLE object contains shellcode exploiting the [CVE-2017-11882](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2017-11882) remote code execution vulnerability in Equation Editor which had been addressed in 2017. It would also download the user's info stealing malware - Snake Keylogger. 
-  
+  * user executing malicious code by opening a malicious document file, or links - in my opinion, this is one of most common/frequent form of techniques used. The TA (phisher/scammer) would send a "fake" email (looking like a legit one) containing a link/file asking for action from the user/victim. The user then clicks on the link or open the file attached which triggers downloading some malware without the user's knowledge and this later exploits and infect user' system. Example: Attackers using the Snake keylogger malware for Windows are emailing malicious PDFs with embedded Word documents to infect victims' PCs and steal information as described in this [zdnet article  where hacker sending email with pdf file containing embedded word document triggering malware dowload](https://www.zdnet.com/article/this-malware-spreading-pdf-uses-a-sneaky-file-name-to-trick-the-unwary/))
+ 
   * user opening a file in a shared directory placed by the TA 
   * user enabling Remote Access Software, letting TA have direct control of the system.
   
   
    * Define procedure, and give an example of each.
+  
+ 
+  TA sending email containing malicious PDF files named "REMMITANCE INVOICE.pdf" with an embedded Word document named "has been verified. However PDF, Jpeg, xlsx, .docs". Once opening the file, Adobe Reader prompts the user to open the Word file, and here because of the name conbined with the warning notification from Adobe Reader, it reads "The file 'has been verified. However PDF, Jpeg, xlsx, .docs' may contain programs, macros or viruses that could potentially harm your computer. Open the file only if you are sure it is safe. Would you like to:" (At the first glance, the notification with combination of the file name looks normal (the file's has been verified...). 
+  !(https://threatresearch.ext.hp.com/wp-content/uploads/2022/05/pdf_malware_02.png)
+  The Word document contains a malicious URL where an external object linking and embedding (OLE) object. If the protected view is disable, Word would then download a Rich Text Format file from a web server which would be run in the context of the open document.
+  
+  THe OLE object contains shellcode exploiting the [CVE-2017-11882](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2017-11882) remote code execution vulnerability in Equation Editor which had been addressed in 2017. It would also download the user's info stealing malware - Snake Keylogger. 
+  
  </p> 
  </details>       
  <details><summary> a) Webgoat: A3 Sensitive data exposure </summary>
