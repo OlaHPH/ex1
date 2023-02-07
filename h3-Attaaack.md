@@ -42,14 +42,13 @@ Source: [Cloud Range - Red Team vs. Blue Team excercises](https://www.cloudrange
  2. Mapping with ATT&CK
  
   Example of identifying ATT&CK tactics used in the case of Virus Bulletin 2018: Inside Formbook Infostealer by the malware researcher Gabriela Nicolao: (https://www.virusbulletin.com/uploads/pdf/magazine/2018/VB2018-Nicolao.pdf)
- 
- 3. Testing yourself 
- 
+  
  </p> 
  </details>   
  <details><summary> y) Write an answer with references - completed </summary>
  <p> 
   Answer in the context of Mitre Att&ck, and pick examples that are different from the chapter in task x.
+  
    * Define tactic and give an example.
 
 The one I picked here is Execution (https://attack.mitre.org/tactics/TA0002/). As briefly mentioned in the previous part, execution refers to the act of TA running malicious code inside the victim's environment, either local or remote. This is usually paired with other tactics' techniques to acchieve broader goals, like getting data or "getting to know" the network, system. 
