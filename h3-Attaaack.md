@@ -90,8 +90,12 @@ Once opening the file, Adobe Reader prompts the user to open the Word file, and 
  <details><summary> n) Voluntary bonus:  - TBC </summary>
  Quite straight-forward task using the knowledge from the previous 'General - Developer Tools' in h1, I used "Inspect" - "Network"- Click on "Log in" button - Find the "Post" start.mvc query - Click on "Request" to find the login details. 
 
- The only issue I got in here is that password was given on the first line and username on the second line, so in a pilot mode, I tried the combo "password-username" and well, it didn't work. I started digging the internet and found out the tutorial/walkthrough showed exactly the steps I done, with only the difference in the name of "username". Ahah, so, the key is to pay attention to each and every single thing, no matter how minor/silly they may look. 
- 
+ The only issue I got in here is that password was given on the first line and username on the second line, so in a pilot mode, I tried the combo "password-username" and well, it didn't work. I started digging the internet and found out the tutorial/walkthrough showed exactly the steps I done, with only the difference in the name of "username". Ahah, so, lesson learnt: pay attention to each and every single thing, no matter how minor/silly they may look. 
+ Wrong solution 
+<img width="794" alt="h3_webgoat_wrong" src="https://user-images.githubusercontent.com/99587532/217193195-8d4d3d42-b65a-4558-a1fe-b99d346d3171.png">
+
+ And the right one 
+<img width="799" alt="h3_webgoat_right" src="https://user-images.githubusercontent.com/99587532/217192663-1d37cfd7-6533-433b-a12a-b7977a0e98e5.png">
  
  
  <p> 
