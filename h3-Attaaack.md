@@ -27,7 +27,7 @@ h3 Attaaack
  
  The ATT&CK Matrix 
  
-  Introduction to MITRE ATT&CK Matrix for Enterprise with tactics and theirs specific techniques related with expansion to techniques specifications (ID,     procedure examples, mitigation, detection and on) making ATT&CK a great resource for training, studying, planning and mapping. (Term used here - _"planning blue and red teaming exercises"_ a training strategy where the "red team" is the one trying to attack (TA) and the "blue team" is the one trying to defend. 
+Introduction to MITRE ATT&CK Matrix for Enterprise with tactics and theirs specific techniques related with expansion to techniques specifications (ID,     procedure examples, mitigation, detection and on) making ATT&CK a great resource for training, studying, planning and mapping. (Term used here - _"planning blue and red teaming exercises"_ a training strategy where the "red team" is the one trying to attack (TA) and the "blue team" is the one trying to defend. 
 Source: [Cloud Range - Red Team vs. Blue Team excercises](https://www.cloudrangecyber.com/red-vs-blue-team)
  
  ![h3_i_Matrix_01](https://user-images.githubusercontent.com/99587532/216986406-dc57c2ef-2c8b-4c91-b3ce-06f2fe0c22af.png)
@@ -50,12 +50,11 @@ Source: [Cloud Range - Red Team vs. Blue Team excercises](https://www.cloudrange
   Answer in the context of Mitre Att&ck, and pick examples that are different from the chapter in task x.
    * Define tactic and give an example.
 
-  The one I picked here is Execution (https://attack.mitre.org/tactics/TA0002/). As briefly mentioned in the previous part, execution refers to the act of TA running malicious code inside the victim's environment, either local or remote. This is usually paired with other tactics' techniques to acchieve broader goals, like getting data or "getting to know" the network, system. 
+The one I picked here is Execution (https://attack.mitre.org/tactics/TA0002/). As briefly mentioned in the previous part, execution refers to the act of TA running malicious code inside the victim's environment, either local or remote. This is usually paired with other tactics' techniques to acchieve broader goals, like getting data or "getting to know" the network, system. 
   
    * Define technique and subtechnique, and give an example of each.
 
-There are 13 techniques included in this tactic and 21 subtechniques, of those, I focus on 
- T1204. User Execution and its subtechniques (malicious emails, links and/or images). User Execution usually goes in pair with other techniques, among them, most often, Phishing from Initial Access or may also occur at later phases of an instrution, for example, Command and Control via Remote Access Software. Using this tactic, TA "tricks" (social engineers) the victims into conducting specific actions to gain excecution. Few examples: 
+There are 13 techniques included in this tactic and 21 subtechniques, of those, I focus here on T1204. User Execution and its subtechniques (malicious emails, links and/or images). User Execution usually goes in pair with other techniques, among them, most often, Phishing from Initial Access or may also occur at later phases of an instrution, for example, Command and Control via Remote Access Software. Using this tactic, TA "tricks" (social engineers) the victims into conducting specific actions to gain excecution. Few examples: 
   
   * user executing malicious code by opening a malicious document file, or links - in my opinion, this is one of most common/frequent form of techniques used. The TA (phisher/scammer) would send a "fake" email (looking like a legit one) containing a link/file asking for action from the user/victim. The user then clicks on the link or open the file attached which triggers downloading some malware without the user's knowledge and this later exploits and infect user' system. Example: [zdnet article -   hackers sending email with pdf file containing embedded word document triggering Snake keyloggermalware dowload to steal information](https://www.zdnet.com/article/this-malware-spreading-pdf-uses-a-sneaky-file-name-to-trick-the-unwary/))
  
@@ -65,19 +64,20 @@ There are 13 techniques included in this tactic and 21 subtechniques, of those, 
   
    * Define procedure, and give an example of each.
   
-  TA sending Windows' users email containing malicious PDF files named "REMMITANCE INVOICE.pdf" with an embedded Word document named "has been verified. However PDF, Jpeg, xlsx, .docs". 
-  Once opening the file, Adobe Reader prompts the user to open the Word file, and here because of the name conbined with the warning notification from Adobe Reader, it reads "The file 'has been verified. However PDF, Jpeg, xlsx, .docs' may contain programs, macros or viruses that could potentially harm your computer. Open the file only if you are sure it is safe. Would you like to:" 
+TA sending Windows' users email containing malicious PDF files named "REMMITANCE INVOICE.pdf" with an embedded Word document named "has been verified. However PDF, Jpeg, xlsx, .docs". 
   
-  At the first glance, the notification with combination of the file name looks normal (the file's has been verified...). 
+Once opening the file, Adobe Reader prompts the user to open the Word file, and here because of the name conbined with the warning notification from Adobe Reader, it reads "The file 'has been verified. However PDF, Jpeg, xlsx, .docs' may contain programs, macros or viruses that could potentially harm your computer. Open the file only if you are sure it is safe. Would you like to:" 
+  
+ At the first glance, the notification with combination of the file name looks normal (the file's has been verified...). 
  ![image](https://user-images.githubusercontent.com/99587532/217180497-ce908d56-0f67-492d-9b58-013ec1b850d5.png)
  
-  The Word document contains a malicious URL where an external object linking and embedding (OLE) object. 
+ The Word document contains a malicious URL where an external object linking and embedding (OLE) object. 
   
-  If the protected view is disable, Word would then download a Rich Text Format file from a web server which would be run in the context of the open document.
+ If the protected view is disable, Word would then download a Rich Text Format file from a web server which would be run in the context of the open document.
   
-  THe OLE object contains shellcode exploiting the [CVE-2017-11882](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2017-11882) remote code execution vulnerability in Equation Editor which had been addressed in 2017. 
+ THe OLE object contains shellcode exploiting the [CVE-2017-11882](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2017-11882) remote code execution vulnerability in Equation Editor which had been addressed in 2017. 
   
-  It would also download the user's info stealing malware - Snake Keylogger which leads to stealing sensitive information from a victim’s device, including saved credentials, the victim’s keystrokes, screenshots of the victim’s screen, and clipboard data. 
+ It would also download the user's info stealing malware - Snake Keylogger which leads to stealing sensitive information from a victim’s device, including saved credentials, the victim’s keystrokes, screenshots of the victim’s screen, and clipboard data. 
   
  </p> 
  </details>       
