@@ -69,8 +69,8 @@ There are 13 techniques included in this tactic and 21 subtechniques, of those, 
   Once opening the file, Adobe Reader prompts the user to open the Word file, and here because of the name conbined with the warning notification from Adobe Reader, it reads "The file 'has been verified. However PDF, Jpeg, xlsx, .docs' may contain programs, macros or viruses that could potentially harm your computer. Open the file only if you are sure it is safe. Would you like to:" 
   
   At the first glance, the notification with combination of the file name looks normal (the file's has been verified...). 
-  !(https://threatresearch.ext.hp.com/wp-content/uploads/2022/05/pdf_malware_02.png)
-  
+ ![image](https://user-images.githubusercontent.com/99587532/217180497-ce908d56-0f67-492d-9b58-013ec1b850d5.png)
+ 
   The Word document contains a malicious URL where an external object linking and embedding (OLE) object. 
   
   If the protected view is disable, Word would then download a Rich Text Format file from a web server which would be run in the context of the open document.
