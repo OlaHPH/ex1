@@ -43,9 +43,10 @@ Source: [Cloud Range - Red Team vs. Blue Team excercises](https://www.cloudrange
   Example of identifying ATT&CK tactics used in the case of Virus Bulletin 2018: Inside Formbook Infostealer by the malware researcher Gabriela Nicolao: (https://www.virusbulletin.com/uploads/pdf/magazine/2018/VB2018-Nicolao.pdf)
  
  3. Testing yourself 
+ 
  </p> 
  </details>   
- <details><summary> y) Write an answer with references.</summary>
+ <details><summary> y) Write an answer with references</summary>
  <p> 
   Answer in the context of Mitre Att&ck, and pick examples that are different from the chapter in task x.
    * Define tactic and give an example.
@@ -81,12 +82,12 @@ Once opening the file, Adobe Reader prompts the user to open the Word file, and 
   
  </p> 
  </details>       
- <details><summary> a) Webgoat: A3 Sensitive data exposure </summary>
+ <details><summary> a) Webgoat: A3 Sensitive data exposure - TBC </summary>
  <p> 
         Insecure Login: 2 Let's try
  </p> 
  </details>  
- <details><summary> n) Voluntary bonus:   </summary>
+ <details><summary> n) Voluntary bonus:  - TBC </summary>
  <p> 
   "Testing yourself" in Costa-Gazcón: Practical Threat Intelligence and Data-Driven Threat Hunting
   Chapter 4: Mapping the Adversary
@@ -95,14 +96,11 @@ Once opening the file, Adobe Reader prompts the user to open the Word file, and 
  
  </p> 
   </details>  
-  <details><summary> m) Voluntary difficult bonus: </summary>
+  <details><summary> m) Voluntary difficult bonus: - TBC </summary>
   <p> 
   WebGoat: SQL Injection (advanced).
   </p> 
   </details>  
-  
-Tips:
-    O'Reilly Learning € (former Safari) is a bit pricey, but Haaga-Helia students get free access trough Haaga-Helia library A-Z page.
     
  <details><summary> References </summary>
  <p> 
