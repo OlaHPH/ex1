@@ -26,6 +26,7 @@
     <p>
     </p> 
  </details>
+ 
  ### References 
  * [Tero Karvinen-h3 Hash assignment](https://terokarvinen.com/2023/information-security-2023/?f=moodle)
  * [€ Schneier 2015: Applied Cryptography: 2.3 One-Way Functions and 2.4 One-Way Hash Functions](https://www.oreilly.com/library/view/applied-cryptography-protocols/9781119096726/10_chap02.html#chap02-sec003)
