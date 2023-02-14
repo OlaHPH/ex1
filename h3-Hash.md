@@ -28,7 +28,7 @@
 My thought: The chapter is a great introduction to cryptography. The language used is very down-to-earth, and fun to read. 
 </p> 
  </details>  
-<details><summary>Click here! a) Install Hashcat. See Karvinen 2022: Cracking Passwords with Hashcat- uncompleted</summary>
+<details><summary>Click here! a) Install Hashcat. See Karvinen 2022: Cracking Passwords with Hashcat- uncompleted, error encountered</summary>
     <p>
 I got stuck with this task, and got to Matthieu's report for inspiration (cannot recommend his enough) but even Matthieu's couldn't help me get through this task this time.
 
@@ -48,9 +48,11 @@ So far I couldn't find a solution for that yet, from what I read out which may s
 On another post, someone encountered the seem-to-be the same issue and got it solved by running it on Windows host instead of Debian - I am not very tempted to try out that option though. 
     </p> 
  </details> 
-<details><summary>b) Crack this hash: 8eb8e307a6d649bc7fb51443a06a216f-TBC</summary>
+<details><summary>b) Crack this hash: 8eb8e307a6d649bc7fb51443a06a216f- uncompleted, error encountered</summary>
     <p>
-Following Tero's guide from the previous task, I tried to identify the hash type using hashid. 
+Following Tero's guide from the previous task, I tried to identify the hash type using hashid before cracking it and getting into the same error I got previously. 
+     
+<img width="496" alt="hash_b_01" src="https://user-images.githubusercontent.com/99587532/218868969-2b64a31f-8204-425b-9cf0-78191c46a598.png">
 
     </p> 
  </details> 
