@@ -35,7 +35,9 @@ I got stuck with this task, and got to Matthieu's report for inspiration (cannot
 So I successfully installed hashcat, created a new director "hashed" as instructed in Tero's guide.
 At the next step, I got the "Rockyou" dictionary downloaded and used command wc -l (word count, and here number of lines) in the file rockyou. 
      
-I also got to identify the type of the hash using command -m 
+I also got to identify the type of the hash using `hashid -m 6b1628b016dff46e6fa35684be6acc96` and thing only went smooth till now. 
+ 
+When I tried to crack the hash, this was what I got 
 
 
     </p> 
