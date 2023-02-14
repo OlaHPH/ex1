@@ -1,6 +1,6 @@
 # h3 Hash
 
-<details><summary>x) Read and summarize - TBC</summary>
+<details><summary>x) Read and summarize - completed</summary>
 <p>
 (This subtask x does not require tests with a computer. Some bullets per article is enough for your summary, feel free to write more if you like)
 € Schneier 2015: Applied Cryptography: 2.3 One-Way Functions and 2.4 One-Way Hash Functions.
