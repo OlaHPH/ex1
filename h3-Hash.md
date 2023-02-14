@@ -32,7 +32,8 @@ My thought: The chapter is a great introduction to cryptography. The language us
     <p>
 I got stuck with this task, and got to Matthieu's report for inspiration (cannot recommend his enough) but even Matthieu's couldn't help me get through this task this time.
 
-So I successfully installed hashcat, created a new director "hashed" as instructed in Tero's guide.
+I successfully installed hashcat, created a new director "hashed" as instructed in Tero's guide.
+     
 At the next step, I got the "Rockyou" dictionary downloaded and used command wc -l (word count, and here number of lines) in the file rockyou. 
      
 I also got to identify the type of the hash using `hashid -m 6b1628b016dff46e6fa35684be6acc96` and thing only went smooth till now. 
@@ -43,7 +44,8 @@ When I tried to crack the hash, this was what I got
  
 So far I couldn't find a solution for that yet, from what I read out which may seem relevant to my case was 
     [ Hashcat isn't finding my Gpu and only works backwards but not well. #2197](https://github.com/hashcat/hashcat/issues/2197)
-     on another post, someone encountered the same issue and got it solved by running it on Windows host instead of Debian - I am not very tempted to try out that option though. 
+     
+On another post, someone encountered the same issue and got it solved by running it on Windows host instead of Debian - I am not very tempted to try out that option though. 
     </p> 
  </details> 
 <details><summary>b) Crack this hash: 8eb8e307a6d649bc7fb51443a06a216f-TBC</summary>
