@@ -10,7 +10,7 @@
 * OWF is not a protocol itself but serves as a fundamental building block of most of protocols discussed in the book.
 * OWF is easy to build, but remarkably much complicated to reverse
 * Example: to break a plate into thousand pieces is easy, but to put these thousands pieces back into the plate is comparatively super hard. 
-* The great thing about OWF - we canNOT use OWF for public-key encryption as is because people cannot decrypt it (still the plate but containing a message, break it into thousands pieces, then ask a friend to put the pieces into a plate and READ the msg - NOPE).
+* The great thing about OWF - we can NOT use OWF for public-key encryption as is because people cannot decrypt it (still the plate but containing a message, break it into thousands pieces, then ask a friend to put the pieces into a plate and READ the msg - NOPE).
 * A trapdoor OWF - a special type of OWF with a secret trapdoor (secret information, instruction)
 * Example: it's easy to dismantle a watch into pieces, and it's super hard to put these pieces back together into a watch, but it would be doable with an instruction. 
 
