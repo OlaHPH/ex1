@@ -28,7 +28,7 @@
 My thought: The chapter is a great introduction to cryptography. The language used is very down-to-earth, and fun to read. 
 </p> 
  </details>  
-<details><summary>a) Install Hashcat. See Karvinen 2022: Cracking Passwords with Hashcat-TBC</summary>
+<details><summary>Click here! a) Install Hashcat. See Karvinen 2022: Cracking Passwords with Hashcat- uncompleted</summary>
     <p>
 I got stuck with this task, and got to Matthieu's report for inspiration (cannot recommend his enough) but even Matthieu's couldn't help me get through this task this time.
 
@@ -45,14 +45,14 @@ When I tried to crack the hash, this was what I got
 So far I couldn't find a solution for that yet, from what I read out which may seem relevant to my case was 
     [ Hashcat isn't finding my Gpu and only works backwards but not well. #2197](https://github.com/hashcat/hashcat/issues/2197)
      
-On another post, someone encountered the same issue and got it solved by running it on Windows host instead of Debian - I am not very tempted to try out that option though. 
+On another post, someone encountered the seem-to-be the same issue and got it solved by running it on Windows host instead of Debian - I am not very tempted to try out that option though. 
     </p> 
  </details> 
 <details><summary>b) Crack this hash: 8eb8e307a6d649bc7fb51443a06a216f-TBC</summary>
     <p>
     </p> 
  </details> 
-<details><summary>c) Compile John the Ripper, Jumbo version. Karvinen 2023: Crack File Password With John.-TBC</summary>
+<details><summary>Click here! c) Compile John the Ripper, Jumbo version. Karvinen 2023: Crack File Password With John.-uncompleted</summary>
     <p>
   I took me so long with the previous task and it was supposed to be easier than "John" so I hadn't even thouht of trying it. Well, turned out "John" went much smoother. 
      
@@ -60,7 +60,12 @@ On another post, someone encountered the same issue and got it solved by running
  
  As expected I couldn't enter the correct password to open the tero.zip so followed the steps as in Tero's guide to crack the password to that tero.zip file. 
 
- The first step is to extract the hash into a new file, and then run the dictionary attack against the hash in that new file. 
+ The first step is to extract the hash into a new file, and then run the dictionary attack against the hash in that new file. And here it is - the "butterfly" I couldn't find in the previous task. 
+   <img width="523" alt="hash_john_08" src="https://user-images.githubusercontent.com/99587532/218862013-579da679-611c-4b07-8092-d514ea284b76.png">
+ 
+  I went further to explore this a little as Tero suggested. When I tried the `HOME/john/run/office2john.py` and got an error. So using Tero' solution (creating a symlink) I could bypass the error. 
+   
+   I haven't tried to create any encrypted files and crack them. So the task is incompleted, though. Would definitely try if I would have more time. And yeah, if there would be one thing I wish I had tried before when being stuck on a task for too long, maybe it's just better to switch to another task and get back to it later/ or just move forward. That would definitely have saved me so much time and nerve which I spent on the 2nd task. 
     </p> 
  </details> 
 <details><summary>d) Crack a zip file password-TBC</summary>
