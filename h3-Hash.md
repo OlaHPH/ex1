@@ -1,6 +1,6 @@
 # h3 Hash
 
-<details><summary>Click herex) Read and summarize - completed</summary>
+<details><summary>Click here! x) Read and summarize - completed</summary>
 <p>
 (This subtask x does not require tests with a computer. Some bullets per article is enough for your summary, feel free to write more if you like)
 € Schneier 2015: Applied Cryptography: 2.3 One-Way Functions and 2.4 One-Way Hash Functions.
@@ -54,6 +54,13 @@ On another post, someone encountered the same issue and got it solved by running
  </details> 
 <details><summary>c) Compile John the Ripper, Jumbo version. Karvinen 2023: Crack File Password With John.-TBC</summary>
     <p>
+  I took me so long with the previous task and it was supposed to be easier than "John" so I hadn't even thouht of trying it. Well, turned out "John" went much smoother. 
+     
+ I got the John the Ripper, Jumbo version downloaded and compiled.Then got Tero' sample zip file for testing. 
+ 
+ As expected I couldn't enter the correct password to open the tero.zip so followed the steps as in Tero's guide to crack the password to that tero.zip file. 
+
+ The first step is to extract the hash into a new file, and then run the dictionary attack against the hash in that new file. 
     </p> 
  </details> 
 <details><summary>d) Crack a zip file password-TBC</summary>
