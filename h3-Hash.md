@@ -1,6 +1,6 @@
 # h3 Hash
 
-<details><summary>x) Read and summarize - completed</summary>
+<details><summary>Click herex) Read and summarize - completed</summary>
 <p>
 (This subtask x does not require tests with a computer. Some bullets per article is enough for your summary, feel free to write more if you like)
 € Schneier 2015: Applied Cryptography: 2.3 One-Way Functions and 2.4 One-Way Hash Functions.
@@ -19,8 +19,8 @@
 * OWHF is central to modern cryptography
 * HF has been used in Computer Science for a long time.
 * HF is a mathematical function where you convert a variable-length input string (pre-image) into fixed-length output string (hash value). 
-* HF is many-to-one (??? - further explanation needed), we cannot use them to determine 2 strings are equal, but can use them to get a reasonable assumption of accuracy. 
-* OWFH works in one way so pre-image -> hash value, NOT hash value -> pre-image, OWFH is collision-free (??? further explanation needed)
+* HF is many-to-one, we cannot use them to determine 2 strings are equal, but can use them to get a reasonable assumption of accuracy. 
+* OWFH works in one way so pre-image -> hash value, NOT hash value -> pre-image, OWFH is collision-free 
 * Example: HF with public key is used usually in financial transactions, asking someone to provide the correct hash value to release an amount of money from account 
 * MAC (message authentication code) or DAC (data authentication code) = OWHF + secret key with hash value  = f(preimage, key) 
 * with MAC/DAC - only someone with the KEY can verify the hash value
@@ -30,6 +30,14 @@ My thought: The chapter is a great introduction to cryptography. The language us
  </details>  
 <details><summary>a) Install Hashcat. See Karvinen 2022: Cracking Passwords with Hashcat-TBC</summary>
     <p>
+I got stuck with this task, and got to Matthieu's report for inspiration (cannot recommend his enough) but even Matthieu's couldn't help me get through this task this time.
+
+So I successfully installed hashcat, created a new director "hashed" as instructed in Tero's guide.
+At the next step, I got the "Rockyou" dictionary downloaded and used command wc -l (word count, and here number of lines) in the file rockyou. 
+     
+I also got to identify the type of the hash using command -m 
+
+
     </p> 
  </details> 
 <details><summary>b) Crack this hash: 8eb8e307a6d649bc7fb51443a06a216f-TBC</summary>
@@ -54,3 +62,4 @@ My thought: The chapter is a great introduction to cryptography. The language us
  * [€ Schneier 2015: Applied Cryptography: 2.3 One-Way Functions and 2.4 One-Way Hash Functions](https://www.oreilly.com/library/view/applied-cryptography-protocols/9781119096726/10_chap02.html#chap02-sec003)
  * [Karvinen 2022: Cracking Passwords with Hashcat](https://terokarvinen.com/2022/cracking-passwords-with-hashcat/)
  * [Karvinen 2023: Crack File Password With John](https://terokarvinen.com/2023/crack-file-password-with-john/)
+ * [Matthieu's assignment report, again, it's done so well, it's such a pleasure to read. For anyone needing an inspiration, or just in vain like me, check Matthieu, please](https://github.com/MatthieuBruh/h4_Hash) 
