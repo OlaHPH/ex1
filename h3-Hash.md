@@ -49,13 +49,13 @@ On another post, someone encountered the seem-to-be the same issue and got it so
     </p> 
  </details> 
 <details><summary>b) Crack this hash: 8eb8e307a6d649bc7fb51443a06a216f- uncompleted, error encountered</summary>
-    <p>
+<p>
 Following Tero's guide from the previous task, I tried to identify the hash type using hashid before cracking it and getting into the same error I got previously. 
      
 <img width="496" alt="hash_b_01" src="https://user-images.githubusercontent.com/99587532/218868969-2b64a31f-8204-425b-9cf0-78191c46a598.png">
-
-    </p> 
- </details> 
+</p> 
+</details> 
+ 
 <details><summary>Click here! c) Compile John the Ripper, Jumbo version. Karvinen 2023: Crack File Password With John.-uncompleted</summary>
     <p>
   I took me so long with the previous task and it was supposed to be easier than "John" so I hadn't even thouht of trying it. Well, turned out "John" went much smoother. 
