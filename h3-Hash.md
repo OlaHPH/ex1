@@ -39,7 +39,11 @@ I also got to identify the type of the hash using `hashid -m 6b1628b016dff46e6fa
  
 When I tried to crack the hash, this was what I got 
 
-
+<img width="536" alt="hash-error_message_debian" src="https://user-images.githubusercontent.com/99587532/218857569-4edaf084-6e7e-488e-936a-96cacf8a8ebc.png">
+ 
+So far I couldn't find a solution for that yet, from what I read out which may seem relevant to my case was 
+    [ Hashcat isn't finding my Gpu and only works backwards but not well. #2197](https://github.com/hashcat/hashcat/issues/2197)
+     on another post, someone encountered the same issue and got it solved by running it on Windows host instead of Debian - I am not very tempted to try out that option though. 
     </p> 
  </details> 
 <details><summary>b) Crack this hash: 8eb8e307a6d649bc7fb51443a06a216f-TBC</summary>
