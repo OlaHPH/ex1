@@ -62,4 +62,4 @@ I also got to identify the type of the hash using command -m
  * [€ Schneier 2015: Applied Cryptography: 2.3 One-Way Functions and 2.4 One-Way Hash Functions](https://www.oreilly.com/library/view/applied-cryptography-protocols/9781119096726/10_chap02.html#chap02-sec003)
  * [Karvinen 2022: Cracking Passwords with Hashcat](https://terokarvinen.com/2022/cracking-passwords-with-hashcat/)
  * [Karvinen 2023: Crack File Password With John](https://terokarvinen.com/2023/crack-file-password-with-john/)
- * [Matthieu's assignment report, again, it's done so well, it's such a pleasure to read. For anyone needing an inspiration, or just in vain like me, check Matthieu, please](https://github.com/MatthieuBruh/h4_Hash) 
+ * [Matthieu's assignment report](https://github.com/MatthieuBruh/h4_Hash) Again, it's done so well, it's such a pleasure to read. For anyone needing an inspiration, or just in vain like me, check Matthieu, please
