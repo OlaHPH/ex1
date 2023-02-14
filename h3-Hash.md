@@ -50,6 +50,8 @@ On another post, someone encountered the seem-to-be the same issue and got it so
  </details> 
 <details><summary>b) Crack this hash: 8eb8e307a6d649bc7fb51443a06a216f-TBC</summary>
     <p>
+Following Tero's guide from the previous task, I tried to identify the hash type using hashid. 
+
     </p> 
  </details> 
 <details><summary>Click here! c) Compile John the Ripper, Jumbo version. Karvinen 2023: Crack File Password With John.-uncompleted</summary>
