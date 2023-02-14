@@ -53,6 +53,8 @@ On another post, someone encountered the seem-to-be the same issue and got it so
 Following Tero's guide from the previous task, I tried to identify the hash type using hashid before cracking it and getting into the same error I got previously. 
      
 <img width="496" alt="hash_b_01" src="https://user-images.githubusercontent.com/99587532/218868969-2b64a31f-8204-425b-9cf0-78191c46a598.png">
+ 
+<img width="495" alt="hash_b_02" src="https://user-images.githubusercontent.com/99587532/218869749-f2c762bd-cebb-4e1a-8254-67990459dc9a.png">
 </p> 
 </details> 
  
