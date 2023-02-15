@@ -45,7 +45,7 @@ When I tried to crack the hash, this was what I got
 So far I couldn't find a solution for that yet, from what I read out which may seem relevant to my case was 
     [ Hashcat isn't finding my Gpu and only works backwards but not well. #2197](https://github.com/hashcat/hashcat/issues/2197)
      
-On another post, someone encountered the seem-to-be the same issue and got it solved by running it on Windows host instead of Debian - I am not very tempted to try out that option though. 
+On another post, someone encountered the seem-to-be the same issue and got it solved by running it on Windows host instead of Debian - I am not very tempted to try out that option though. *Edit: 2023-02-15 - Tero mentioned in the class that it could be the solution so I may try this next time. 
     </p> 
  </details> 
 <details><summary>b) Crack this hash: 8eb8e307a6d649bc7fb51443a06a216f- uncompleted, error encountered</summary>
